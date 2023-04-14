@@ -1,7 +1,7 @@
-const express = require("./expreslib/app");
-const parseJson = require("./expreslib/parseJson");
-const urlParser = require("./expreslib/urlParser");
-const bodyParser = require("./expreslib/bodyParser");
+const express = require("./lib/app");
+const parseJson = require("./lib/parseJson");
+const urlParser = require("./lib/urlParser");
+const bodyParser = require("./lib/bodyParser");
 const user = require("./routers/router");
 
 const app = new express();
