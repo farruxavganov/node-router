@@ -1,4 +1,4 @@
-const Router = require("../expreslib/router");
+const Router = require("../lib/router");
 
 const user = new Router();
 
