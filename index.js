@@ -11,6 +11,6 @@ app.use(bodyParser);
 app.addRouter(user);
 
 
-app.listen(3001, ()=> {
+app.listen(3000, ()=> {
 	console.log("Listining port 3000")
 })
